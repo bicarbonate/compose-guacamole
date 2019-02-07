@@ -23,7 +23,7 @@ services:
     image: guacamole/guacamole:1.0.0
     restart: always
     ports:
-      - 78080:8080
+      - 18080:8080
     links:
       - guacd
       - db
